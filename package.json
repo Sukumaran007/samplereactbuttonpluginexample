@@ -1,7 +1,11 @@
 {
   "name": "samplereactbuttonpluginexample",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.1.0",
+  "private": false,
+  "description": "A simple React button plugin",
+  "main": "src/Button.js",
+  "author": "Maran",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
