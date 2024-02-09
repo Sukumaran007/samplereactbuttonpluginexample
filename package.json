@@ -6,6 +6,7 @@
   "main": "src/Button.js",
   "author": "Maran",
   "license": "MIT",
+  "homepage": "https://github.com/Sukumaran007/samplereactbuttonpluginexample.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -16,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.23.3",
+    "gh-pages": "^6.1.1"
   }
 }
